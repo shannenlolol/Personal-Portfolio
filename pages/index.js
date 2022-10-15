@@ -16,7 +16,16 @@ export default function Home() {
         <img className={styles.photo} src= "/icons/Profile pic.jpg" alt=""></img>
       </div>
       <p className={styles.about_me}>Hello, I love my kkumas</p>
-      
+      <br></br>
+      <form action='mailto:shannenlolol@gmail.com' method="post" encType='text/plain'>
+        <label>Your Name: </label>
+        <input type="text" name="yourName"></input><br></br><br></br>
+        <label>Your Email: </label>
+        <input type="email" name="yourEmail" ></input><br></br><br></br>
+        <label>Your Message: </label><br></br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br></br><br></br>
+        <input type="submit" name=""></input><br></br>
+      </form>
       </body>
   )
 }
