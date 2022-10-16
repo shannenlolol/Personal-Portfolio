@@ -4,8 +4,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <div>
     <Head>
       <link rel='shortcut icon' href="/icons/favicon.ico"/>
+    </Head>
     <body>
       <p className={styles.header_text_1}> Hello I'm</p>
       <p className={styles.header_text_2}>Shannen Lee</p>
@@ -29,6 +31,7 @@ export default function Home() {
         <input type="submit" name=""></input><br></br>
       </form>
       </body>
-      </Head>
+      
+      </div>
   )
 }
