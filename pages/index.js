@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <body>
+      <link rel='icon' href="favicon.ico"></link>
       <p className={styles.header_text_1}> Hello I'm</p>
       <p className={styles.header_text_2}>Shannen Lee</p>
       <p className={styles.header_text_3}>Student at NTU</p>
