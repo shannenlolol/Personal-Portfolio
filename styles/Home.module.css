@@ -1,10 +1,14 @@
 .body{
+  background-color: #FFFFFF;
+}
+
+.header {
   background-color: #000000;
 }
 
 .header_text_1 {
   margin: 0;
-  margin-top: 24px;
+  margin-top: 0;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-style: normal;
@@ -48,12 +52,13 @@
 
 .cv {
   font-size: 30px;
+  font-family:'Franklin Gothic Medium';
   border-style: solid;
   border-color: beige;
   border-width: 1px;
   border-radius: 12px;
   padding: 10px 16px;
-
+  background-color: azure;
   margin: 0;
   display: flex;
   align-items: center;
@@ -65,9 +70,10 @@
 
 .contact {
   font-size: 30px;
+  font-family:'Franklin Gothic Medium';
   border-style: solid;
   border-color: beige;
-  background-color: navy;
+  background-color: azure;
   border-width: 1px;
   border-radius: 12px;
   padding: 10px 16px;
@@ -88,11 +94,20 @@
 }
 
 .photo {
+  display: absolute;
+  margin-top: 0px;
+  justify-content: center;
+  max-width: 70%;
+  z-index: 3;
+}
+
+.mountain {
   display: flex;
   margin-top: 0px;
   justify-content: center;
   max-width: 70%;
 }
+
 
 .about_me{
   margin: 0;
@@ -105,6 +120,27 @@
   color: #FFFFFF;
 }
 
+.title {
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  /* font-family: "lato", sans-serif; */
+  font-family: "Sacramento", cursive;
+  font-weight: 500;
+  font-size: 5.625rem;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.title span{
+  background: -webkit-linear-gradient(white, #38495a);
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 

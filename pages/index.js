@@ -8,30 +8,51 @@ export default function Home() {
     <Head>
       <link rel='shortcut icon' href="/icons/favicon.ico"/>
     </Head>
+    <div>
     <body>
-      <p className={styles.header_text_1}> Hello I'm</p>
-      <p className={styles.header_text_2}>Shannen Lee</p>
-      <p className={styles.header_text_3}>Student at NTU</p>
-      <div className={styles.button_container}>
-        <a className={styles.cv} href= "https://www.linkedin.com/in/shannen-lee-4b7301216/"> LinkedIn </a>
-        <a className={styles.contact} href="https://t.me/shannenlolol/</div>">Let's Talk</a>
+      <div>
+        <div className={styles.header}>
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div><br></br>
+            <div className={styles.title}> <span> Hello! </span> <br /> <span> I'm Shannen</span></div>
+        
+        <div className={styles.photo_container} >
+            <img className={styles.photo} src= "/icons/Profile pic.jpg" alt=""></img>
+        </div>
+        <div className={styles.button_container}>
+            <a className={styles.cv} href= "https://www.linkedin.com/in/shannen-lee-4b7301216/"> LinkedIn </a>
+            <a className={styles.contact} href="https://t.me/shannenlolol/</div>">Let's Talk!</a>
+        </div>
+        <br></br>
       </div>
-      <div className={styles.photo_container}>
-        <img className={styles.photo} src= "/icons/Profile pic.jpg" alt=""></img>
-      </div>
-      <p className={styles.about_me}>Hello, I love my kkumas</p>
+      <p className={styles.about_me}>Send me an email!</p>
       <br></br>
+      <div>
       <form action='mailto:shannenlolol@gmail.com' method="post" encType='text/plain'>
-        <label>Your Name: </label>
+      <div className={styles.photo_container} >
+        <label className={styles.about_me}>Your Name: </label>
         <input type="text" name="yourName"></input><br></br><br></br>
-        <label>Your Email: </label>
+      </div>
+      <br></br>
+      <div className={styles.photo_container} >
+        <label className={styles.about_me}>Your Email: </label>
         <input type="email" name="yourEmail" ></input><br></br><br></br>
-        <label>Your Message: </label><br></br>
+        </div>
+        <br></br>
+        <div className={styles.photo_container} >
+        <label className={styles.about_me}>Your Message: </label><br></br>
         <textarea name="yourMessage" rows="10" cols="30"></textarea><br></br><br></br>
-        <input type="submit" name=""></input><br></br>
+        </div>
+        <div className={styles.photo_container} >
+        <input className={styles.cv} type="submit" name=""></input><br></br>
+        </div>
+        <br></br>
       </form>
+      </div>
+      </div>
       </body>
-      
+      </div>
       </div>
   )
 }
