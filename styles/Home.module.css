@@ -68,12 +68,48 @@
   justify-content: space-around;
 }
 
+.cv:hover {
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium';
+  border-style: solid;
+  border-color: beige;
+  border-width: 1px;
+  border-radius: 12px;
+  padding: 10px 16px;
+  background-color: rgb(190, 232, 232);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 30%;
+  margin-right: 0%;
+  justify-content: space-around;
+}
+
 .contact {
   font-size: 30px;
   font-family:'Franklin Gothic Medium';
   border-style: solid;
   border-color: beige;
   background-color: azure;
+  border-width: 1px;
+  border-radius: 12px;
+  padding: 10px 16px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 0%;
+  margin-right: 30%;
+  justify-content: space-around;
+}
+
+.contact:hover {
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium';
+  border-style: solid;
+  border-color: beige;
+  background-color: rgb(190, 232, 232);
   border-width: 1px;
   border-radius: 12px;
   padding: 10px 16px;
@@ -101,11 +137,26 @@
   z-index: 3;
 }
 
+.signature {
+  margin-left: 10px;
+  display: absolute;
+  margin-top: 0px;
+  /* justify-content: center; */
+  max-width: 40%;
+  /* z-index: 3; */
+}
+
+
+.navitem{
+  text-align: right;
+} 
+
 .mountain {
   display: flex;
   margin-top: 0px;
   justify-content: center;
   max-width: 70%;
+  
 }
 
 
@@ -121,9 +172,6 @@
 }
 
 .title {
-  top: 0;
-  left: 0;
-  right: 0;
   color: #FFF;
   text-align: center;
   /* font-family: "lato", sans-serif; */
@@ -132,15 +180,26 @@
   font-size: 5.625rem;
   letter-spacing: 2px;
   margin-top: 20px;
-  padding-left: 10px;
 }
+
 
 .title span{
   background: -webkit-linear-gradient(white, #38495a);
   background-clip:text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
-
+.navitem {
+  color: #FFF;
+  text-align: center;
+  /* font-family: "lato", sans-serif; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
 
